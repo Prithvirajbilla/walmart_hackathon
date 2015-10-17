@@ -3,14 +3,14 @@ from django.db import models
 # Create your models here.
 
 class Product(models.Model):
-	name = models.CharField(max_length=128,db_index¶=True)
-	category = models.CharField(max_length=128,db_index¶=True)
+	name = models.CharField(max_length=128,db_index=True)
+	category = models.CharField(max_length=128,db_index=True)
 
 	def __str__(self):
 		self.name
 
 class Sku(models.Model):
-	product_id = models.ForeignKey(Product)
+	product = models.ForeignKey(Product)
 	quantity = models.IntegerField()
 	type_quantity = models.CharField(max_length=10)
 
@@ -20,13 +20,13 @@ class User(models.Model):
 	last_updated = models.DateTimeField()
 
 class PurchaseHistory(models.Model):
-	user_id = models.ForeignKey(User)
-	sku_id = models.ForeignKey(Sku)
+	user = models.ForeignKey(User)
+	sku = models.ForeignKey(Sku)
 	purchase_datetime = models.DateTimeField()
 	pruchase_time = models.TimeField()
 
 class Predictions(models.Model):
-	user_id = models.ForeignKey(User)
+	user = models.ForeignKey(User)
 	category = models.CharField(max_length=128)
 	predicted_datetime = models.DateTimeField()
 	predicted_time = models.TimeField()
