@@ -126,7 +126,8 @@ def predict(request,uid):
 def token(request):
 	token = request.GET["token"]
 	user_name = "random_user_"+token[:3]
-	User(token=token,user_name=user_name,last_updated=dt.datetime.now()).save()
+	if User.objects.filter(token=token).count() == 0:
+		User(token=token,user_name=user_name,last_updated=dt.datetime.now()).save()
 	return HttpResponse("hello")
 
 def push(request,uid,pid):
