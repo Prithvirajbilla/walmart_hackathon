@@ -5,7 +5,7 @@ from django.db import models
 class Product(models.Model):
 	name = models.CharField(max_length=128,db_index=True)
 	category = models.CharField(max_length=128,db_index=True)
-	group = models.BooleanField(default=False)
+	group_by = models.BooleanField(default=False)
 
 	def __str__(self):
 		self.name
