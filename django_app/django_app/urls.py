@@ -23,4 +23,5 @@ urlpatterns = [
     url(r'^save/$','inventory.views.save'),
     url(r'^predict/(\d+)/$','inventory.views.predict'),
     url(r'^token$','inventory.views.token'),
+    url(r'^push/(\d+)/(\d+)$','inventory.views.push'),
 ]

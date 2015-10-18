@@ -64,7 +64,10 @@ def predict(request,uid):
 				for pred in predictions:
 					pred.delete()
 				run_pred = True
+		else:
+			run_pred=True
 
+		print run_pred
 		if run_pred:
 			purchases = PurchaseHistory.objects.filter(user=user).order_by('purchase_datetime')
 			pred_dict = {}
