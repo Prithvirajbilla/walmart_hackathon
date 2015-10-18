@@ -30,6 +30,12 @@ class User(models.Model):
 	user_name = models.CharField(max_length=128)
 	last_updated = models.DateTimeField()
 
+	def __str__(self):
+		return self.user_name
+
+	def __unicode__(self):
+		return self.user_name
+
 class PurchaseHistory(models.Model):
 	user = models.ForeignKey(User)
 	sku = models.ForeignKey(Sku)

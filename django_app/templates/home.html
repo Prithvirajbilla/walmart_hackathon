@@ -11,20 +11,6 @@
 	</tr>
 </thead>
 <tbody>
-	<tr>
-		<td>
-			
-		</td>
-		<td>
-			
-		</td>
-		<td>
-			
-		</td>
-		<td>
-			
-		</td>
-	</tr>
 	<form class="form-inline">
 	<tr>
 	<td>
@@ -58,8 +44,24 @@
 	</td>
 	</form> 
 		
-
+	{% for purchase in purchases %}
 	</tr>
+		<tr>
+		<td>
+			
+		</td>
+		<td>
+			
+		</td>
+		<td>
+			
+		</td>
+		<td>
+			
+		</td>
+	</tr>
+	{% endfor %}
+
 </tbody>
 </table>
 <!--   <div class="form-group">

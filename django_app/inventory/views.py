@@ -7,6 +7,12 @@ import datetime
 import urllib 
 from inventory.models import *
 
+def user_select(request):
+	template= "user_select.html"
+	users = User.objects.all()
+	return render(request,template,{"users":users})
+
+
 
 def home(request):
 	template="home.html"
