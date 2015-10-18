@@ -82,7 +82,7 @@ public class RegistrationIntentService extends IntentService {
         // Add custom implementation, as needed.
         try {
 
-            String url = "http://188.166.247.123/token?user=" + user + "&token=" + token;
+            String url = "http://grocerapp.sushant-hiray.me/token?user=" + user + "&token=" + token;
 
             HttpClient client = new DefaultHttpClient();
             HttpGet request = new HttpGet(url);
