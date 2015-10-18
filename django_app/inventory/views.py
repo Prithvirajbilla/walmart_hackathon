@@ -6,6 +6,8 @@ import json
 import urllib 
 from inventory.models import *
 from datetime import datetime
+import datetime as dt
+from collections import Counter
 
 
 def user_select(request):
@@ -25,6 +27,7 @@ def home(request):
 		return render(request,template,{"skus":skus,"purchases":purchases,"user_id":user_id})
 	except Exception,e:
 		raise Http404
+
 def save(request):
 	try:
 		user_id = request.POST["user_id"]
@@ -32,6 +35,9 @@ def save(request):
 		purchased_datetime = request.POST["purchased_datetime"]
 		t_datetime = datetime.strptime(purchased_datetime, '%m/%d/%Y %I:%M %p')
 		t_time = t_datetime.time()
+		user = User.objects.get(pk=user_id)
+		user.last_updated =datetime.now()
+		user.save()
 		purchase = PurchaseHistory(user=User.objects.get(pk=user_id),
 			sku=Sku.objects.get(pk=sku_id),purchase_datetime=t_datetime,purchase_time=t_time)
 		purchase.save()
@@ -39,3 +45,77 @@ def save(request):
 		return HttpResponseRedirect("/purchase_history?user_id="+user_id)
 	except Exception, e:
 		raise
+
+def predict(request,uid):
+	try:
+		template = "predict.html"
+		user = User.objects.get(pk=uid)
+		last_activity = user.last_updated
+
+		predictions = Predictions.objects.filter(user=user)
+
+		run_pred = False
+
+		if len(predictions) > 0:
+			if predictions[0].created_time < last_activity:
+				for pred in predictions:
+					pred.delete()
+				run_pred = True
+
+		if run_pred:
+			purchases = PurchaseHistory.objects.filter(user=user).order_by('purchase_datetime')
+			pred_dict = {}
+			pred_dict_qnt = {}
+			new_predict_time = []
+			for purchase in purchases:
+				cat_name = ""
+				if purchase.sku.product.group_by:
+					cat_name = purchase.sku.product.category
+				else:
+					cat_name = purchase.sku.product
+				if cat_name in pred_dict:
+					pred_dict[cat_name].append(purchase.purchase_datetime)
+					pred_dict_qnt[cat_name].append(purchase.sku.quantity)
+				else:
+					pred_dict[cat_name] = [purchase.purchase_datetime]
+					pred_dict_qnt[cat_name] = [purchase.sku.quantity]
+
+				new_predict_time.append(purchase.purchase_time.hour)
+
+			print pred_dict
+
+			new_predict = {}
+			last_purchase = {}
+
+			for key in pred_dict:
+				m = min(pred_dict_qnt[key])
+
+				if len(pred_dict[key]) > 1:
+					new_predict[key] = []
+
+					for i in range(len(pred_dict[key])-1):
+						d = (pred_dict[key][i+1]-pred_dict[key][i]).days
+						qnty = pred_dict_qnt[key][i]
+						new_predict[key].append(d*m/qnty)
+					last_purchase[key] = pred_dict[key][-1]
+
+
+			print new_predict,new_predict_time,last_purchase
+			most_common,num_most_common = Counter(new_predict_time).most_common(1)[0]
+			print most_common,num_most_common
+
+			for key in new_predict:
+				days_now = sum(new_predict[key])/len(new_predict[key])
+				if days_now != 0:
+					cur_prediction = Predictions(user=user,
+						category=key,
+						predicted_datetime=last_purchase[key]+dt.timedelta(days=days_now),
+						predicted_time=dt.time(most_common,0,0),created_time=datetime.now())
+					cur_prediction.save()
+
+			predictions = Predictions.objects.filter(user=user)
+
+		print predictions
+		return render(request,template,{"predictions":predictions})
+	except Exception, e:
+		raise e

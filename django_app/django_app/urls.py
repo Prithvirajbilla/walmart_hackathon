@@ -21,4 +21,5 @@ urlpatterns = [
     url(r'^$','inventory.views.user_select'),
     url(r'^purchase_history/$','inventory.views.home'),
     url(r'^save/$','inventory.views.save'),
+    url(r'^predict/(\d+)/$','inventory.views.predict'),
 ]

@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+	<h1> Predictions </h1>
+{% if  predictions %}
+	<table class="table table-hover table-bordered">
+
+	<thead>
+		<tr>
+		  <th>Category</th>
+		  <th>Predicted Date </th>
+		  <th>Best time for pull notification</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% for prediction in predictions %}
+		<tr>
+		<td>
+		{{ prediction.category }}
+		</td>
+		<td>
+		{{ prediction.predicted_datetime }}
+		</td>
+		<td>
+			{{prediction.predicted_time }}
+		</td>
+		</tr>
+		{% endfor %}
+
+
+	</tbody>
+	</table>
+{% else %}
+
+{% endif %}
+
+{% endblock %}

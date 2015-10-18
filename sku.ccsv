@@ -1,0 +1,478 @@
+ 1, Asparagus, Fresh vegetables,500 gms
+2, Asparagus, Fresh vegetables,1000 gms
+3, Broccoli, Fresh vegetables,500 gms
+4, Broccoli, Fresh vegetables,1000 gms
+5, Carrots, Fresh vegetables,500 gms
+6, Carrots, Fresh vegetables,1000 gms
+7, Cauliflower, Fresh vegetables,500 gms
+8, Cauliflower, Fresh vegetables,1000 gms
+9, Celery, Fresh vegetables,500 gms
+10, Celery, Fresh vegetables,1000 gms
+11, Corn, Fresh vegetables,500 gms
+12, Corn, Fresh vegetables,1000 gms
+13, Cucumbers, Fresh vegetables,500 gms
+14, Cucumbers, Fresh vegetables,1000 gms
+15, Lettuce / Greens, Fresh vegetables,500 gms
+16, Lettuce / Greens, Fresh vegetables,1000 gms
+17, Mushrooms, Fresh vegetables,500 gms
+18, Mushrooms, Fresh vegetables,1000 gms
+19, Onions, Fresh vegetables,500 gms
+20, Onions, Fresh vegetables,1000 gms
+21, Peppers, Fresh vegetables,500 gms
+22, Peppers, Fresh vegetables,1000 gms
+23, Potatoes, Fresh vegetables,500 gms
+24, Potatoes, Fresh vegetables,1000 gms
+25, Spinach, Fresh vegetables,500 gms
+26, Spinach, Fresh vegetables,1000 gms
+27, Squash, Fresh vegetables,500 gms
+28, Squash, Fresh vegetables,1000 gms
+29, Zucchini, Fresh vegetables,500 gms
+30, Zucchini, Fresh vegetables,1000 gms
+31, Tomatoes, Fresh vegetables,500 gms
+32, Tomatoes, Fresh vegetables,1000 gms
+33, BBQ sauce, Condiments / Sauces,50 gms
+34, BBQ sauce, Condiments / Sauces,100 gms
+35, Gravy, Condiments / Sauces,50 gms
+36, Gravy, Condiments / Sauces,100 gms
+37, Honey, Condiments / Sauces,50 gms
+38, Honey, Condiments / Sauces,100 gms
+39, Hot sauce, Condiments / Sauces,50 gms
+40, Hot sauce, Condiments / Sauces,100 gms
+41, Jam / Jelly / Preserves, Condiments / Sauces,50 gms
+42, Jam / Jelly / Preserves, Condiments / Sauces,100 gms
+43, Ketchup / Mustard, Condiments / Sauces,50 gms
+44, Ketchup / Mustard, Condiments / Sauces,100 gms
+45, Mayonnaise, Condiments / Sauces,50 gms
+46, Mayonnaise, Condiments / Sauces,100 gms
+47, Pasta sauce, Condiments / Sauces,50 gms
+48, Pasta sauce, Condiments / Sauces,100 gms
+49, Relish, Condiments / Sauces,50 gms
+50, Relish, Condiments / Sauces,100 gms
+51, Salad dressing, Condiments / Sauces,50 gms
+52, Salad dressing, Condiments / Sauces,100 gms
+53, Salsa, Condiments / Sauces,50 gms
+54, Salsa, Condiments / Sauces,100 gms
+55, Soy sauce, Condiments / Sauces,50 gms
+56, Soy sauce, Condiments / Sauces,100 gms
+57, Steak sauce, Condiments / Sauces,50 gms
+58, Steak sauce, Condiments / Sauces,100 gms
+59, Syrup, Condiments / Sauces,50 gms
+60, Syrup, Condiments / Sauces,100 gms
+61, Worcestershire sauce, Condiments / Sauces,50 gms
+62, Worcestershire sauce, Condiments / Sauces,100 gms
+63, Butter / Margarine, Dairy,50 gms
+64, Butter / Margarine, Dairy,100 gms
+65, Cottage cheese, Dairy,50 gms
+66, Cottage cheese, Dairy,100 gms
+67, Half & half, Dairy,50 gms
+68, Half & half, Dairy,100 gms
+69, Milk, Dairy,50 gms
+70, Milk, Dairy,100 gms
+71, Sour cream, Dairy,50 gms
+72, Sour cream, Dairy,100 gms
+73, Whipped cream, Dairy,50 gms
+74, Whipped cream, Dairy,100 gms
+75, Yogurt, Dairy,50 gms
+76, Yogurt, Dairy,100 gms
+77, Apples, Fresh fruits,500 gms
+78, Apples, Fresh fruits,1000 gms
+79, Avocados, Fresh fruits,500 gms
+80, Avocados, Fresh fruits,1000 gms
+81, Bananas, Fresh fruits,500 gms
+82, Bananas, Fresh fruits,1000 gms
+83, Berries, Fresh fruits,500 gms
+84, Berries, Fresh fruits,1000 gms
+85, Cherries, Fresh fruits,500 gms
+86, Cherries, Fresh fruits,1000 gms
+87, Grapefruit, Fresh fruits,500 gms
+88, Grapefruit, Fresh fruits,1000 gms
+89, Grapes, Fresh fruits,500 gms
+90, Grapes, Fresh fruits,1000 gms
+91, Kiwis, Fresh fruits,500 gms
+92, Kiwis, Fresh fruits,1000 gms
+93, Lemons / Limes, Fresh fruits,500 gms
+94, Lemons / Limes, Fresh fruits,1000 gms
+95, Melon, Fresh fruits,500 gms
+96, Melon, Fresh fruits,1000 gms
+97, Nectarines, Fresh fruits,500 gms
+98, Nectarines, Fresh fruits,1000 gms
+99, Oranges, Fresh fruits,500 gms
+100, Oranges, Fresh fruits,1000 gms
+101, Peaches, Fresh fruits,500 gms
+102, Peaches, Fresh fruits,1000 gms
+103, Pears, Fresh fruits,500 gms
+104, Pears, Fresh fruits,1000 gms
+105, Plums, Fresh fruits,500 gms
+106, Plums, Fresh fruits,1000 gms
+107, Bouillon cubes, Various Groceries,1 pcs
+108, Bouillon cubes, Various Groceries,2 pcs
+109, Cereal, Various Groceries,1 pcs
+110, Cereal, Various Groceries,2 pcs
+111, Coffee / Filters, Various Groceries,1 pcs
+112, Coffee / Filters, Various Groceries,2 pcs
+113, Instant potatoes, Various Groceries,1 pcs
+114, Instant potatoes, Various Groceries,2 pcs
+115, Lemon / Lime juice, Various Groceries,1 pcs
+116, Lemon / Lime juice, Various Groceries,2 pcs
+117, Mac & cheese, Various Groceries,1 pcs
+118, Mac & cheese, Various Groceries,2 pcs
+119, Olive oil, Various Groceries,1 pcs
+120, Olive oil, Various Groceries,2 pcs
+121, Packaged meals, Various Groceries,1 pcs
+122, Packaged meals, Various Groceries,2 pcs
+123, Pancake / Waffle mix, Various Groceries,1 pcs
+124, Pancake / Waffle mix, Various Groceries,2 pcs
+125, Pasta, Various Groceries,1 pcs
+126, Pasta, Various Groceries,2 pcs
+127, Peanut butter, Various Groceries,1 pcs
+128, Peanut butter, Various Groceries,2 pcs
+129, Pickles, Various Groceries,1 pcs
+130, Pickles, Various Groceries,2 pcs
+131, Rice, Various Groceries,1 pcs
+132, Rice, Various Groceries,2 pcs
+133, Tea, Various Groceries,1 pcs
+134, Tea, Various Groceries,2 pcs
+135, Vegetable oil, Various Groceries,1 pcs
+136, Vegetable oil, Various Groceries,2 pcs
+137, Vinegar, Various Groceries,1 pcs
+138, Vinegar, Various Groceries,2 pcs
+139, Bagels, Refrigerated Items,6 pcs
+140, Bagels, Refrigerated Items,12 pcs
+141, Chip dip, Refrigerated Items,6 pcs
+142, Chip dip, Refrigerated Items,12 pcs
+143, Eggs / Fake eggs, Refrigerated Items,6 pcs
+144, Eggs / Fake eggs, Refrigerated Items,12 pcs
+145, English muffins, Refrigerated Items,6 pcs
+146, English muffins, Refrigerated Items,12 pcs
+147, Fruit juice, Refrigerated Items,6 pcs
+148, Fruit juice, Refrigerated Items,12 pcs
+149, Hummus, Refrigerated Items,6 pcs
+150, Hummus, Refrigerated Items,12 pcs
+151, Ready-bake breads, Refrigerated Items,6 pcs
+152, Ready-bake breads, Refrigerated Items,12 pcs
+153, Tofu, Refrigerated Items,6 pcs
+154, Tofu, Refrigerated Items,12 pcs
+155, Tortillas, Refrigerated Items,6 pcs
+156, Tortillas, Refrigerated Items,12 pcs
+157, Applesauce, Canned Foods,500 gms
+158, Applesauce, Canned Foods,1000 gms
+159, Baked beans, Canned Foods,500 gms
+160, Baked beans, Canned Foods,1000 gms
+161, Broth, Canned Foods,500 gms
+162, Broth, Canned Foods,1000 gms
+163, Fruit, Canned Foods,500 gms
+164, Fruit, Canned Foods,1000 gms
+165, Olives, Canned Foods,500 gms
+166, Olives, Canned Foods,1000 gms
+167, Tinned meats, Canned Foods,500 gms
+168, Tinned meats, Canned Foods,1000 gms
+169, Tuna / Chicken, Canned Foods,500 gms
+170, Tuna / Chicken, Canned Foods,1000 gms
+171, Soup / Chili, Canned Foods,500 gms
+172, Soup / Chili, Canned Foods,1000 gms
+173, Tomatoes, Canned Foods,500 gms
+174, Tomatoes, Canned Foods,1000 gms
+175, Veggies, Canned Foods,500 gms
+176, Veggies, Canned Foods,1000 gms
+177, Catfish, Sea Food,500 gms
+178, Catfish, Sea Food,1000 gms
+179, Crab, Sea Food,500 gms
+180, Crab, Sea Food,1000 gms
+181, Lobster, Sea Food,500 gms
+182, Lobster, Sea Food,1000 gms
+183, Mussels, Sea Food,500 gms
+184, Mussels, Sea Food,1000 gms
+185, Oysters, Sea Food,500 gms
+186, Oysters, Sea Food,1000 gms
+187, Salmon, Sea Food,500 gms
+188, Salmon, Sea Food,1000 gms
+189, Shrimp, Sea Food,500 gms
+190, Shrimp, Sea Food,1000 gms
+191, Tilapia, Sea Food,500 gms
+192, Tilapia, Sea Food,1000 gms
+193, Tuna, Sea Food,500 gms
+194, Tuna, Sea Food,1000 gms
+195, Burger night, Themed Meals,500 gms
+196, Burger night, Themed Meals,1000 gms
+197, Chili night, Themed Meals,500 gms
+198, Chili night, Themed Meals,1000 gms
+199, Pizza night, Themed Meals,500 gms
+200, Pizza night, Themed Meals,1000 gms
+201, Spaghetti night, Themed Meals,500 gms
+202, Spaghetti night, Themed Meals,1000 gms
+203, Taco night, Themed Meals,500 gms
+204, Taco night, Themed Meals,1000 gms
+205, Take-out deli food, Themed Meals,500 gms
+206, Take-out deli food, Themed Meals,1000 gms
+207, Breakfasts, Frozen Food,500 gms
+208, Breakfasts, Frozen Food,1000 gms
+209, Burritos, Frozen Food,500 gms
+210, Burritos, Frozen Food,1000 gms
+211, Fish sticks, Frozen Food,500 gms
+212, Fish sticks, Frozen Food,1000 gms
+213, Fries / Tater tots, Frozen Food,500 gms
+214, Fries / Tater tots, Frozen Food,1000 gms
+215, Ice cream / Sorbet, Frozen Food,500 gms
+216, Ice cream / Sorbet, Frozen Food,1000 gms
+217, Juice concentrate, Frozen Food,500 gms
+218, Juice concentrate, Frozen Food,1000 gms
+219, Pizza, Frozen Food,500 gms
+220, Pizza, Frozen Food,1000 gms
+221, Pizza Rolls, Frozen Food,500 gms
+222, Pizza Rolls, Frozen Food,1000 gms
+223, Popsicles, Frozen Food,500 gms
+224, Popsicles, Frozen Food,1000 gms
+225, TV dinners, Frozen Food,500 gms
+226, TV dinners, Frozen Food,1000 gms
+227, Vegetables, Frozen Food,500 gms
+228, Vegetables, Frozen Food,1000 gms
+229, Basil, Spices & Herbs,50 gms
+230, Basil, Spices & Herbs,100 gms
+231, Black pepper, Spices & Herbs,50 gms
+232, Black pepper, Spices & Herbs,100 gms
+233, Cilantro, Spices & Herbs,50 gms
+234, Cilantro, Spices & Herbs,100 gms
+235, Cinnamon, Spices & Herbs,50 gms
+236, Cinnamon, Spices & Herbs,100 gms
+237, Garlic, Spices & Herbs,50 gms
+238, Garlic, Spices & Herbs,100 gms
+239, Ginger, Spices & Herbs,50 gms
+240, Ginger, Spices & Herbs,100 gms
+241, Mint, Spices & Herbs,50 gms
+242, Mint, Spices & Herbs,100 gms
+243, Oregano, Spices & Herbs,50 gms
+244, Oregano, Spices & Herbs,100 gms
+245, Paprika, Spices & Herbs,50 gms
+246, Paprika, Spices & Herbs,100 gms
+247, Parsley, Spices & Herbs,50 gms
+248, Parsley, Spices & Herbs,100 gms
+249, Red pepper, Spices & Herbs,50 gms
+250, Red pepper, Spices & Herbs,100 gms
+251, Salt, Spices & Herbs,50 gms
+252, Salt, Spices & Herbs,100 gms
+253, Vanilla extract, Spices & Herbs,50 gms
+254, Vanilla extract, Spices & Herbs,100 gms
+255, Beer, Beverages,250 ml
+256, Beer, Beverages,500 ml
+257, Club soda / Tonic, Beverages,250 ml
+258, Club soda / Tonic, Beverages,500 ml
+259, Champagne, Beverages,250 ml
+260, Champagne, Beverages,500 ml
+261, Gin, Beverages,250 ml
+262, Gin, Beverages,500 ml
+263, Juice, Beverages,250 ml
+264, Juice, Beverages,500 ml
+265, Mixers, Beverages,250 ml
+266, Mixers, Beverages,500 ml
+267, Red wine / White wine, Beverages,250 ml
+268, Red wine / White wine, Beverages,500 ml
+269, Rum, Beverages,250 ml
+270, Rum, Beverages,500 ml
+271, SakÃ©, Beverages,250 ml
+272, SakÃ©, Beverages,500 ml
+273, Soda pop, Beverages,250 ml
+274, Soda pop, Beverages,500 ml
+275, Sports drink, Beverages,250 ml
+276, Sports drink, Beverages,500 ml
+277, Whiskey, Beverages,250 ml
+278, Whiskey, Beverages,500 ml
+279, Vodka, Beverages,250 ml
+280, Vodka, Beverages,500 ml
+281, Baby food, Baby Stuff,7 pcs
+282, Baby food, Baby Stuff,30 pcs
+283, Diapers, Baby Stuff,7 pcs
+284, Diapers, Baby Stuff,30 pcs
+285, Formula, Baby Stuff,7 pcs
+286, Formula, Baby Stuff,30 pcs
+287, Lotion, Baby Stuff,7 pcs
+288, Lotion, Baby Stuff,30 pcs
+289, Baby wash, Baby Stuff,7 pcs
+290, Baby wash, Baby Stuff,30 pcs
+291, Wipes, Baby Stuff,7 pcs
+292, Wipes, Baby Stuff,30 pcs
+293, Cat food / Treats, Pets,7 pcs
+294, Cat food / Treats, Pets,30 pcs
+295, Cat litter, Pets,7 pcs
+296, Cat litter, Pets,30 pcs
+297, Dog food / Treats, Pets,7 pcs
+298, Dog food / Treats, Pets,30 pcs
+299, Flea treatment, Pets,7 pcs
+300, Flea treatment, Pets,30 pcs
+301, Pet shampoo, Pets,7 pcs
+302, Pet shampoo, Pets,30 pcs
+303, Bacon / Sausage, Meat,500 gms
+304, Bacon / Sausage, Meat,1000 gms
+305, Beef, Meat,500 gms
+306, Beef, Meat,1000 gms
+307, Chicken, Meat,500 gms
+308, Chicken, Meat,1000 gms
+309, Ground beef / Turkey, Meat,500 gms
+310, Ground beef / Turkey, Meat,1000 gms
+311, Ham / Pork, Meat,500 gms
+312, Ham / Pork, Meat,1000 gms
+313, Hot dogs, Meat,500 gms
+314, Hot dogs, Meat,1000 gms
+315, Lunchmeat, Meat,500 gms
+316, Lunchmeat, Meat,1000 gms
+317, Turkey, Meat,500 gms
+318, Turkey, Meat,1000 gms
+319, Candy / Gum, Snacks,500 gms
+320, Candy / Gum, Snacks,1000 gms
+321, Cookies, Snacks,500 gms
+322, Cookies, Snacks,1000 gms
+323, Crackers, Snacks,500 gms
+324, Crackers, Snacks,1000 gms
+325, Dried fruit, Snacks,500 gms
+326, Dried fruit, Snacks,1000 gms
+327, Granola bars / Mix, Snacks,500 gms
+328, Granola bars / Mix, Snacks,1000 gms
+329, Nuts / Seeds, Snacks,500 gms
+330, Nuts / Seeds, Snacks,1000 gms
+331, Oatmeal, Snacks,500 gms
+332, Oatmeal, Snacks,1000 gms
+333, Popcorn, Snacks,500 gms
+334, Popcorn, Snacks,1000 gms
+335, Potato / Corn chips, Snacks,500 gms
+336, Potato / Corn chips, Snacks,1000 gms
+337, Pretzels, Snacks,500 gms
+338, Pretzels, Snacks,1000 gms
+339, Baking powder / Soda, Baking,500 gms
+340, Baking powder / Soda, Baking,1000 gms
+341, Bread crumbs, Baking,500 gms
+342, Bread crumbs, Baking,1000 gms
+343, Cake / Brownie mix, Baking,500 gms
+344, Cake / Brownie mix, Baking,1000 gms
+345, Cake icing / Decorations, Baking,500 gms
+346, Cake icing / Decorations, Baking,1000 gms
+347, Chocolate chips / Cocoa, Baking,500 gms
+348, Chocolate chips / Cocoa, Baking,1000 gms
+349, Flour, Baking,500 gms
+350, Flour, Baking,1000 gms
+351, Shortening, Baking,500 gms
+352, Shortening, Baking,1000 gms
+353, Sugar, Baking,500 gms
+354, Sugar, Baking,1000 gms
+355, Sugar substitute, Baking,500 gms
+356, Sugar substitute, Baking,1000 gms
+357, Yeast, Baking,500 gms
+358, Yeast, Baking,1000 gms
+359, Bleu cheese, Cheese,50 gms
+360, Bleu cheese, Cheese,100 gms
+361, Cheddar, Cheese,50 gms
+362, Cheddar, Cheese,100 gms
+363, Cottage cheese, Cheese,50 gms
+364, Cottage cheese, Cheese,100 gms
+365, Cream cheese, Cheese,50 gms
+366, Cream cheese, Cheese,100 gms
+367, Feta, Cheese,50 gms
+368, Feta, Cheese,100 gms
+369, Goat cheese, Cheese,50 gms
+370, Goat cheese, Cheese,100 gms
+371, Mozzarella, Cheese,50 gms
+372, Mozzarella, Cheese,100 gms
+373, Parmesan, Cheese,50 gms
+374, Parmesan, Cheese,100 gms
+375, Provolone, Cheese,50 gms
+376, Provolone, Cheese,100 gms
+377, Ricotta, Cheese,50 gms
+378, Ricotta, Cheese,100 gms
+379, Sandwich slices, Cheese,50 gms
+380, Sandwich slices, Cheese,100 gms
+381, Swiss, Cheese,50 gms
+382, Swiss, Cheese,100 gms
+383, Bagels / Croissants, Baked Goods,1 pcs
+384, Bagels / Croissants, Baked Goods,6 pcs
+385, Buns / Rolls, Baked Goods,1 pcs
+386, Buns / Rolls, Baked Goods,6 pcs
+387, Cake / Cookies, Baked Goods,1 pcs
+388, Cake / Cookies, Baked Goods,6 pcs
+389, Donuts / Pastries, Baked Goods,1 pcs
+390, Donuts / Pastries, Baked Goods,6 pcs
+391, Fresh bread, Baked Goods,1 pcs
+392, Fresh bread, Baked Goods,6 pcs
+393, Pie! Pie! Pie!, Baked Goods,1 pcs
+394, Pie! Pie! Pie!, Baked Goods,6 pcs
+395, Pita bread, Baked Goods,1 pcs
+396, Pita bread, Baked Goods,6 pcs
+397, Sliced bread, Baked Goods,1 pcs
+398, Sliced bread, Baked Goods,6 pcs
+399, Antiperspirant / Deodorant, Personal Care,1 pcs
+400, Antiperspirant / Deodorant, Personal Care,2 pcs
+401, Bath soap / Hand soap, Personal Care,1 pcs
+402, Bath soap / Hand soap, Personal Care,2 pcs
+403, Condoms / Other b.c., Personal Care,1 pcs
+404, Condoms / Other b.c., Personal Care,2 pcs
+405, Cosmetics, Personal Care,1 pcs
+406, Cosmetics, Personal Care,2 pcs
+407, Cotton swabs / Balls, Personal Care,1 pcs
+408, Cotton swabs / Balls, Personal Care,2 pcs
+409, Facial cleanser, Personal Care,1 pcs
+410, Facial cleanser, Personal Care,2 pcs
+411, Facial tissue, Personal Care,1 pcs
+412, Facial tissue, Personal Care,2 pcs
+413, Feminine products, Personal Care,1 pcs
+414, Feminine products, Personal Care,2 pcs
+415, Floss, Personal Care,1 pcs
+416, Floss, Personal Care,2 pcs
+417, Hair gel / Spray, Personal Care,1 pcs
+418, Hair gel / Spray, Personal Care,2 pcs
+419, Lip balm, Personal Care,1 pcs
+420, Lip balm, Personal Care,2 pcs
+421, Moisturizing lotion, Personal Care,1 pcs
+422, Moisturizing lotion, Personal Care,2 pcs
+423, Mouthwash, Personal Care,1 pcs
+424, Mouthwash, Personal Care,2 pcs
+425, Razors / Shaving cream, Personal Care,1 pcs
+426, Razors / Shaving cream, Personal Care,2 pcs
+427, Shampoo / Conditioner, Personal Care,1 pcs
+428, Shampoo / Conditioner, Personal Care,2 pcs
+429, Sunblock, Personal Care,1 pcs
+430, Sunblock, Personal Care,2 pcs
+431, Toilet paper, Personal Care,1 pcs
+432, Toilet paper, Personal Care,2 pcs
+433, Toothpaste, Personal Care,1 pcs
+434, Toothpaste, Personal Care,2 pcs
+435, Vitamins / Supplements, Personal Care,1 pcs
+436, Vitamins / Supplements, Personal Care,2 pcs
+437, Air freshener, Cleaning Products,1 pcs
+438, Air freshener, Cleaning Products,2 pcs
+439, Bathroom cleaner, Cleaning Products,1 pcs
+440, Bathroom cleaner, Cleaning Products,2 pcs
+441, Bleach / Detergent, Cleaning Products,1 pcs
+442, Bleach / Detergent, Cleaning Products,2 pcs
+443, Dish / Dishwasher soap, Cleaning Products,1 pcs
+444, Dish / Dishwasher soap, Cleaning Products,2 pcs
+445, Garbage bags, Cleaning Products,1 pcs
+446, Garbage bags, Cleaning Products,2 pcs
+447, Glass cleaner, Cleaning Products,1 pcs
+448, Glass cleaner, Cleaning Products,2 pcs
+449, Mop head / Vacuum bags, Cleaning Products,1 pcs
+450, Mop head / Vacuum bags, Cleaning Products,2 pcs
+451, Sponges / Scrubbers, Cleaning Products,1 pcs
+452, Sponges / Scrubbers, Cleaning Products,2 pcs
+453, CDRs / DVDRs, Office Supplies,1 pcs
+454, CDRs / DVDRs, Office Supplies,2 pcs
+455, Notepad / Envelopes, Office Supplies,1 pcs
+456, Notepad / Envelopes, Office Supplies,2 pcs
+457, Glue / Tape, Office Supplies,1 pcs
+458, Glue / Tape, Office Supplies,2 pcs
+459, Printer paper, Office Supplies,1 pcs
+460, Printer paper, Office Supplies,2 pcs
+461, Pens / Pencils, Office Supplies,1 pcs
+462, Pens / Pencils, Office Supplies,2 pcs
+463, Postage stamps, Office Supplies,1 pcs
+464, Postage stamps, Office Supplies,2 pcs
+465, Aluminum foil, Kitchen Stuff,1 pcs
+466, Aluminum foil, Kitchen Stuff,2 pcs
+467, Napkins, Kitchen Stuff,1 pcs
+468, Napkins, Kitchen Stuff,2 pcs
+469, Non-stick spray, Kitchen Stuff,1 pcs
+470, Non-stick spray, Kitchen Stuff,2 pcs
+471, Paper towels, Kitchen Stuff,1 pcs
+472, Paper towels, Kitchen Stuff,2 pcs
+473, Plastic wrap, Kitchen Stuff,1 pcs
+474, Plastic wrap, Kitchen Stuff,2 pcs
+475, Sandwich / Freezer bags, Kitchen Stuff,1 pcs
+476, Sandwich / Freezer bags, Kitchen Stuff,2 pcs
+477, Wax paper, Kitchen Stuff,1 pcs
+478, Wax paper, Kitchen Stuff,2 pcs 

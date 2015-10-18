@@ -1,6 +1,7 @@
 from django.db import models
 
 # Create your models here.
+from django.utils import timezone
 
 class Product(models.Model):
 	name = models.CharField(max_length=128,db_index=True)
@@ -56,3 +57,4 @@ class Predictions(models.Model):
 	category = models.CharField(max_length=128)
 	predicted_datetime = models.DateTimeField()
 	predicted_time = models.TimeField()
+	created_time = models.DateTimeField()
