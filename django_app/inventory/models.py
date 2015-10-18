@@ -40,7 +40,7 @@ class PurchaseHistory(models.Model):
 	user = models.ForeignKey(User)
 	sku = models.ForeignKey(Sku)
 	purchase_datetime = models.DateTimeField()
-	pruchase_time = models.TimeField()
+	purchase_time = models.TimeField()
 
 	def __str__(self):
 		return (self.sku.product.name+" (%s) [%d %s]")%(self.sku.product.category,self.sku.quantity,
