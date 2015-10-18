@@ -39,6 +39,8 @@
 	</td>
 
 	<td>
+			{% csrf_token %}
+			<input type="hidden" name="user_id" value={{user_id}} />
 		   <button type="submit" class="btn btn-primary">Buy</button>
 
 	</td>
@@ -68,7 +70,11 @@
     <label for="title">Buy Stuff &nbsp; &nbsp;</label>
   </div>
  -->  
-
+ <div class="row">
+	 <div class="col-md-offset-5">
+	   <button type="button" class="btn btn-primary btn-lg">Predict</button>
+	 </div>
+</div>
 {% endblock %}
 
 

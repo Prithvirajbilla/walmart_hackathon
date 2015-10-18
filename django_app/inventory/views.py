@@ -15,6 +15,14 @@ def user_select(request):
 
 
 def home(request):
-	template="home.html"
-	skus = Sku.objects.all()
-	return render(request,template,{"skus":skus})
+	try:
+		template="home.html"
+		user_id = request.GET["user_id"]
+		user = User.objects.get(pk=user_id)
+		purchases = PurchaseHistory.objects.filter(user=user)
+		skus = Sku.objects.all()
+		return render(request,template,{"skus":skus,"purchases":purchases,"user_id":user_id})
+	except Exception,e:
+		raise Http404
+def save(request):
+	pass

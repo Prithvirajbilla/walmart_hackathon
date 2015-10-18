@@ -42,6 +42,15 @@ class PurchaseHistory(models.Model):
 	purchase_datetime = models.DateTimeField()
 	pruchase_time = models.TimeField()
 
+	def __str__(self):
+		return (self.sku.product.name+" (%s) [%d %s]")%(self.sku.product.category,self.sku.quantity,
+			self.sku.type_quantity)
+
+	def __unicode__(self):
+		return (self.sku.product.name+" (%s) [%d %s]")%(self.sku.product.category,self.sku.quantity,
+			self.sku.type_quantity)
+
+
 class Predictions(models.Model):
 	user = models.ForeignKey(User)
 	category = models.CharField(max_length=128)

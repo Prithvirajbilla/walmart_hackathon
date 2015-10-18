@@ -20,4 +20,5 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$','inventory.views.user_select'),
     url(r'^purchase_history/$','inventory.views.home'),
+    url(r'^save/$','inventory.views.save'),
 ]
