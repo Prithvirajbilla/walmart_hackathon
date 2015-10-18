@@ -30,6 +30,7 @@ class Sku(models.Model):
 class User(models.Model):
 	user_name = models.CharField(max_length=128)
 	last_updated = models.DateTimeField()
+	token = models.CharField(max_length=256)
 
 	def __str__(self):
 		return self.user_name

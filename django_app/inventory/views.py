@@ -8,6 +8,9 @@ from inventory.models import *
 from datetime import datetime
 import datetime as dt
 from collections import Counter
+import requests
+import json
+
 
 
 def user_select(request):
@@ -116,6 +119,30 @@ def predict(request,uid):
 			predictions = Predictions.objects.filter(user=user)
 
 		print predictions
-		return render(request,template,{"predictions":predictions})
+		return render(request,template,{"predictions":predictions,"user_id":uid})
 	except Exception, e:
 		raise e
+
+def token(request):
+	token = request.GET["token"]
+	user_name = "random_user_"+token[:3]
+	User(token=token,user_name=user_name,last_updated=dt.datetime.now()).save()
+	return HttpResponse("hello")
+
+def push(request,uid,pid):
+	try:
+		url= "https://gcm-http.googleapis.com/gcm/send"
+		headers = {'Content-Type': 'application/json','Authorization':'key=AIzaSyC4r57hIzGbmTZQfh31_w1p5fOon0GMpBc'}
+		user = User.objects.get(pk=uid)
+		prediction = Predictions.objects.get(pk=pid)
+		payload = {}
+		payload["to"] = user.token
+		payload["data"] = {"category":prediction.category}
+		requests.post(url,headers=headers,data=json.dumps(payload))
+
+		return HttpResponseRedirect("/predict/"+uid+"/")
+
+	except Exception,e:
+		print  e
+		return HttpResponseRedirect("/predict/"+uid+"/")
+

@@ -10,6 +10,7 @@
 		  <th>Category</th>
 		  <th>Predicted Date </th>
 		  <th>Best time for pull notification</th>
+		  <th> Button </th>
 		</tr>
 	</thead>
 	<tbody>
@@ -23,6 +24,9 @@
 		</td>
 		<td>
 			{{prediction.predicted_time }}
+		</td>
+		<td>
+			<a href="/push/{{user_id}}/{{prediction.id}}" class="btn btn-primary"> Push To Device </a>
 		</td>
 		</tr>
 		{% endfor %}
