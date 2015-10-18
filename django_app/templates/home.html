@@ -1,0 +1,95 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+<form class="form-inline" method="post" action="/save/">
+<table class="table table-hover table-bordered">
+<thead>
+	<tr>
+	  <th>#</th>
+	  <th>Product Name (Quantity)</th>
+	  <th>purchased datetime </th>
+	  <th>Category</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+	<td>
+		Buy Stuff
+	</td>
+	<td>
+		<div class="form-group">
+		    <label class="sr-only" for="product_name">Product</label>
+		    <select class="select2" id="product_name" name="sku_id">
+		    {% for sku in skus %}
+		        <option value="{{sku.id}}">{{sku}}</option>
+		    {% endfor %}
+		      </select>
+	    </div>
+	</td>
+	<td>
+	  <div class="form-group">
+	    <label class="sr-only" for="exampleInputPassword3">Password</label>
+	    <div class='input-group date' id='datetimepicker1'>
+	        <input type='text' class="form-control" name="purchased_datetime"/>
+	        <span class="input-group-addon">
+	            <span class="glyphicon glyphicon-calendar"></span>
+	        </span>
+	    </div> 
+	    </div>
+	</td>
+
+	<td>
+			{% csrf_token %}
+			<input type="hidden" name="user_id" value={{user_id}} />
+		   <button type="submit" class="btn btn-primary">Buy</button>
+
+	</td>
+		
+	{% for purchase in purchases %}
+	</tr>
+	<tr>
+			
+		<td>
+			{{purchase.id}}
+		</td>
+			
+		<td>
+			{{purchase}}
+		</td>
+			
+		<td>
+			{{purchase.sku.product.category}}
+		</td>
+			
+		<td>
+			{{purchase.purchase_datetime}}
+		</td>
+	</tr>
+	{% endfor %}
+
+</tbody>
+</table>
+</form>
+<!--   <div class="form-group">
+    <label for="title">Buy Stuff &nbsp; &nbsp;</label>
+  </div>
+ -->  
+ <div class="row">
+	 <div class="col-md-offset-5">
+	   <button type="button" class="btn btn-primary btn-lg">Predict</button>
+	 </div>
+</div>
+{% endblock %}
+
+
+{% block js %}
+<script type="text/javascript">
+    $(function () {
+        $('#datetimepicker1').datetimepicker(
+        	{
+        		defaultDate: moment(),
+        	});
+        $("#product_name").select2();
+    });
+</script>
+{% endblock %}

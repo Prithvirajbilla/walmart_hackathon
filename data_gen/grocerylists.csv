@@ -1,0 +1,239 @@
+Asparagus,Fresh vegetables,true
+Broccoli,Fresh vegetables,true
+Carrots,Fresh vegetables,true
+Cauliflower,Fresh vegetables,true
+Celery,Fresh vegetables,true
+Corn,Fresh vegetables,true
+Cucumbers,Fresh vegetables,true
+Lettuce / Greens,Fresh vegetables,true
+Mushrooms,Fresh vegetables,true
+Onions,Fresh vegetables,true
+Peppers,Fresh vegetables,true
+Potatoes,Fresh vegetables,true
+Spinach,Fresh vegetables,true
+Squash,Fresh vegetables,true
+Zucchini,Fresh vegetables,true
+Tomatoes,Fresh vegetables,true
+BBQ sauce,Condiments / Sauces,true
+Gravy,Condiments / Sauces,true
+Honey,Condiments / Sauces,true
+Hot sauce,Condiments / Sauces,true
+Jam / Jelly / Preserves,Condiments / Sauces,true
+Ketchup / Mustard,Condiments / Sauces,true
+Mayonnaise,Condiments / Sauces,true
+Pasta sauce,Condiments / Sauces,true
+Relish,Condiments / Sauces,true
+Salad dressing,Condiments / Sauces,true
+Salsa,Condiments / Sauces,true
+Soy sauce,Condiments / Sauces,true
+Steak sauce,Condiments / Sauces,true
+Syrup,Condiments / Sauces,true
+Worcestershire sauce,Condiments / Sauces,true
+Butter / Margarine,Dairy,true
+Cottage cheese,Dairy,true
+Half & half,Dairy,true
+Milk,Dairy,true
+Sour cream,Dairy,true
+Whipped cream,Dairy,true
+Yogurt,Dairy,true
+Apples,Fresh fruits,true
+Avocados,Fresh fruits,true
+Bananas,Fresh fruits,true
+Berries,Fresh fruits,true
+Cherries,Fresh fruits,true
+Grapefruit,Fresh fruits,true
+Grapes,Fresh fruits,true
+Kiwis,Fresh fruits,true
+Lemons / Limes,Fresh fruits,true
+Melon,Fresh fruits,true
+Nectarines,Fresh fruits,true
+Oranges,Fresh fruits,true
+Peaches,Fresh fruits,true
+Pears,Fresh fruits,true
+Plums,Fresh fruits,true
+Bouillon cubes,Various Groceries,false
+Cereal,Various Groceries,false
+Coffee / Filters,Various Groceries,false
+Instant potatoes,Various Groceries,false
+Lemon / Lime juice,Various Groceries,false
+Mac & cheese,Various Groceries,false
+Olive oil,Various Groceries,false
+Packaged meals,Various Groceries,false
+Pancake / Waffle mix,Various Groceries,false
+Pasta,Various Groceries,false
+Peanut butter,Various Groceries,false
+Pickles,Various Groceries,false
+Rice,Various Groceries,false
+Tea,Various Groceries,false
+Vegetable oil,Various Groceries,false
+Vinegar,Various Groceries,false
+Bagels, Refrigerated Items,false
+Chip dip, Refrigerated Items,false
+Eggs / Fake eggs, Refrigerated Items,false
+English muffins, Refrigerated Items,false
+Fruit juice, Refrigerated Items,false
+Hummus, Refrigerated Items,false
+Ready-bake breads, Refrigerated Items,false
+Tofu, Refrigerated Items,false
+Tortillas, Refrigerated Items,false
+Applesauce,Canned Foods,true
+Baked beans,Canned Foods,true
+Broth,Canned Foods,true
+Fruit,Canned Foods,true
+Olives,Canned Foods,true
+Tinned meats,Canned Foods,true
+Tuna / Chicken,Canned Foods,true
+Soup / Chili,Canned Foods,true
+Tomatoes,Canned Foods,true
+Veggies,Canned Foods,true
+Catfish,Sea Food,true
+Crab,Sea Food,true
+Lobster,Sea Food,true
+Mussels,Sea Food,true
+Oysters,Sea Food,true
+Salmon,Sea Food,true
+Shrimp,Sea Food,true
+Tilapia,Sea Food,true
+Tuna,Sea Food,true
+Burger night,Themed Meals,false
+Chili night,Themed Meals,false
+Pizza night,Themed Meals,false
+Spaghetti night,Themed Meals,false
+Taco night,Themed Meals,false
+Take-out deli food,Themed Meals,false
+Breakfasts, Frozen Food,false
+Burritos, Frozen Food,false
+Fish sticks, Frozen Food,false
+Fries / Tater tots, Frozen Food,false
+Ice cream / Sorbet, Frozen Food,false
+Juice concentrate, Frozen Food,false
+Pizza, Frozen Food,false
+Pizza Rolls, Frozen Food,false
+Popsicles, Frozen Food,false
+TV dinners, Frozen Food,false
+Vegetables, Frozen Food,false
+Basil,Spices & Herbs,true
+Black pepper,Spices & Herbs,true
+Cilantro,Spices & Herbs,true
+Cinnamon,Spices & Herbs,true
+Garlic,Spices & Herbs,true
+Ginger,Spices & Herbs,true
+Mint,Spices & Herbs,true
+Oregano,Spices & Herbs,true
+Paprika,Spices & Herbs,true
+Parsley,Spices & Herbs,true
+Red pepper,Spices & Herbs,true
+Salt,Spices & Herbs,true
+Vanilla extract,Spices & Herbs,true
+Beer, Beverages,true
+Club soda / Tonic, Beverages,true
+Champagne, Beverages,true
+Gin, Beverages,true
+Juice, Beverages,true
+Mixers, Beverages,true
+Red wine / White wine, Beverages,true
+Rum, Beverages,true
+Saké, Beverages,true
+Soda pop, Beverages,true
+Sports drink, Beverages,true
+Whiskey, Beverages,true
+Vodka, Beverages,true
+Baby food,Baby Stuff,false
+Diapers,Baby Stuff,false
+Formula,Baby Stuff,false
+Lotion,Baby Stuff,false
+Baby wash,Baby Stuff,false
+Wipes,Baby Stuff,false
+Cat food / Treats, Pets,false
+Cat litter, Pets,false
+Dog food / Treats, Pets,false
+Flea treatment, Pets,false
+Pet shampoo, Pets,false
+Bacon / Sausage, Meat,false
+Beef, Meat,false
+Chicken, Meat,false
+Ground beef / Turkey, Meat,false
+Ham / Pork, Meat,false
+Hot dogs, Meat,false
+Lunchmeat, Meat,false
+Turkey, Meat,false
+Candy / Gum,Snacks,true
+Cookies,Snacks,true
+Crackers,Snacks,true
+Dried fruit,Snacks,true
+Granola bars / Mix,Snacks,true
+Nuts / Seeds,Snacks,true
+Oatmeal,Snacks,true
+Popcorn,Snacks,true
+Potato / Corn chips,Snacks,true
+Pretzels,Snacks,true
+Baking powder / Soda, Baking,true
+Bread crumbs, Baking,true
+Cake / Brownie mix, Baking,true
+Cake icing / Decorations, Baking,true
+Chocolate chips / Cocoa, Baking,true
+Flour, Baking,true
+Shortening, Baking,true
+Sugar, Baking,true
+Sugar substitute, Baking,true
+Yeast, Baking,true
+Bleu cheese, Cheese,true
+Cheddar, Cheese,true
+Cottage cheese, Cheese,true
+Cream cheese, Cheese,true
+Feta, Cheese,true
+Goat cheese, Cheese,true
+Mozzarella, Cheese,true
+Parmesan, Cheese,true
+Provolone, Cheese,true
+Ricotta, Cheese,true
+Sandwich slices, Cheese,true
+Swiss, Cheese,true
+Bagels / Croissants, Baked Goods,true
+Buns / Rolls, Baked Goods,true
+Cake / Cookies, Baked Goods,true
+Donuts / Pastries, Baked Goods,true
+Fresh bread, Baked Goods,true
+Pie! Pie! Pie!, Baked Goods,true
+Pita bread, Baked Goods,true
+Sliced bread, Baked Goods,true
+Antiperspirant / Deodorant,Personal Care,false
+Bath soap / Hand soap,Personal Care,false
+Condoms / Other b.c.,Personal Care,false
+Cosmetics,Personal Care,false
+Cotton swabs / Balls,Personal Care,false
+Facial cleanser,Personal Care,false
+Facial tissue,Personal Care,false
+Feminine products,Personal Care,false
+Floss,Personal Care,false
+Hair gel / Spray,Personal Care,false
+Lip balm,Personal Care,false
+Moisturizing lotion,Personal Care,false
+Mouthwash,Personal Care,false
+Razors / Shaving cream,Personal Care,false
+Shampoo / Conditioner,Personal Care,false
+Sunblock,Personal Care,false
+Toilet paper,Personal Care,false
+Toothpaste,Personal Care,false
+Vitamins / Supplements,Personal Care,false
+Air freshener, Cleaning Products,false
+Bathroom cleaner, Cleaning Products,false
+Bleach / Detergent, Cleaning Products,false
+Dish / Dishwasher soap, Cleaning Products,false
+Garbage bags, Cleaning Products,false
+Glass cleaner, Cleaning Products,false
+Mop head / Vacuum bags, Cleaning Products,false
+Sponges / Scrubbers, Cleaning Products,false
+CDRs / DVDRs, Office Supplies,false
+Notepad / Envelopes, Office Supplies,false
+Glue / Tape, Office Supplies,false
+Printer paper, Office Supplies,false
+Pens / Pencils, Office Supplies,false
+Postage stamps, Office Supplies,false
+Aluminum foil,Kitchen Stuff,false
+Napkins,Kitchen Stuff,false
+Non-stick spray,Kitchen Stuff,false
+Paper towels,Kitchen Stuff,false
+Plastic wrap,Kitchen Stuff,false
+Sandwich / Freezer bags,Kitchen Stuff,false
+Wax paper,Kitchen Stuff,false

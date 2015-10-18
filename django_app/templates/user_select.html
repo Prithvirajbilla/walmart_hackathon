@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+<div class="jumbotron">
+  <h1>Hello, world!</h1>
+  <p>Select a user to get started with</p>
+  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+</div>
+<div class="row">
+	<div class="col-md-6 col-md-offset-3">
+		<form method="get" action="/purchase_history" style="align:center">
+		<legend> Select User Name</legend>
+		  <div class="form-group input-lg">
+		    <select class="select2 input-lg" id="user_id" name="user_id">
+		    {% for user in users %}
+		        <option value="{{user.id}}">{{user.user_name}}</option>
+		    {% endfor %}
+		      </select>
+
+		  </div>
+		  <button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+	</div>
+</div>
+
+
+{% endblock %}
+
+
+{% block js %}
+<script type="text/javascript">
+    $(function () {
+        $("#user_id").select2();
+    });
+</script>
+{% endblock %}
