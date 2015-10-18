@@ -8,12 +8,22 @@ class Product(models.Model):
 	group_by = models.BooleanField(default=False)
 
 	def __str__(self):
-		self.name
+		return self.name
+
+	def __unicode__(self):
+		return self.name
+
 
 class Sku(models.Model):
 	product = models.ForeignKey(Product)
 	quantity = models.IntegerField()
 	type_quantity = models.CharField(max_length=10)
+
+	def __str__(self):
+		return (self.product.name+" (%s) [%d %s]")%(self.product.category,self.quantity,self.type_quantity)
+
+	def __unicode__(self):
+		return (self.product.name+" (%s) [%d %s]")%(self.product.category,self.quantity,self.type_quantity)
 
 
 class User(models.Model):

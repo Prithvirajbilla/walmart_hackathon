@@ -34,9 +34,9 @@
 	<div class="form-group">
 	    <label class="sr-only" for="product_name">Product</label>
 	    <select class="select2" id="product_name" name="sku_id">
-	        <option value="2">Mustard</option>
-	        <option>Ketchup</option>
-	        <option>Relish</option>
+	    {% for sku in skus %}
+	        <option value="{{sku.id}}">{{sku}}</option>
+	    {% endfor %}
 	      </select>
     </div>
 	</td>

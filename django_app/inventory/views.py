@@ -5,8 +5,10 @@ from django.http import HttpResponse,HttpResponseRedirect,Http404,HttpResponseNo
 import json
 import datetime
 import urllib 
+from inventory.models import *
 
 
 def home(request):
 	template="home.html"
-	return render(request,template)
+	skus = Sku.objects.all()
+	return render(request,template,{"skus":skus})
