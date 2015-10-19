@@ -2,14 +2,15 @@
 {% load staticfiles %}
 {% block content %}
 <div class="jumbotron">
-  <h1>Hello, world!</h1>
-  <p>Select a user to get started with</p>
-  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+  <h1>Welcome to Grocer Predict!</h1>
+  <p>Select a user to get started with (select the username which you signed up with on mobile phone)</p>
+  <p>Grocer Predict  which helps to enhance customer experience by predicting the customer purchase pattern and send him 
+  	notifications to remind him to buy products (The products which we are dealing with is mostly recurring products (mainly groceries)).</p>
 </div>
 <div class="row">
 	<div class="col-md-6 col-md-offset-3">
 		<form method="get" action="/purchase_history" style="align:center">
-		<legend> Select User Name</legend>
+		<legend> Select User Name (which you signed up in your android device)</legend>
 		  <div class="form-group input-lg">
 		    <select class="select2 input-lg" id="user_id" name="user_id">
 		    {% for user in users %}
